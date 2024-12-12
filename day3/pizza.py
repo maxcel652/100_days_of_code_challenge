@@ -12,7 +12,7 @@ if size == "S":
 elif size == "M":
     bill += 20
 else:
-    bill += 30
+    bill += 20
     
 if add_peperroni == "Y":
     if size == "S":
