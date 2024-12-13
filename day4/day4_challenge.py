@@ -10,7 +10,7 @@ computer_move = random.randint(0, 2)
 result = " "
 if user_choice == 0 and computer_move == 1:
     result = "computer wins"
-    print(f"computer choose {game_titles[computer_move]}\n You choose {game_titles[user_choice]}\n {result}")
+     print(f"computer choose {game_titles[computer_move]}\n You choose {game_titles[user_choice]}\n {result}")
      
 elif  user_choice == 1 and computer_move == 0:
     result = "You win"
